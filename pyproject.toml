@@ -1,0 +1,11 @@
+[project]
+name = "subshift"
+version = "0.1.0"
+description = "Shift and rescale timestamps in SRT subtitle files"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.scripts]
+subshift = "subshift:main"
