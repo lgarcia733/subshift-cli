@@ -62,6 +62,12 @@ rather than wrapping or erroring.
 
 Python 3.8 or newer, standard library only.
 
+## Tests
+
+```
+python3 -m unittest discover -s tests
+```
+
 ## Limitations (for now)
 
 - Only the SubRip (`.srt`) format is supported. No WebVTT, no ASS/SSA.
